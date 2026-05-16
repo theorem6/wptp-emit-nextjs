@@ -1,0 +1,11 @@
+{
+  "schemaVersion": "0.1.0",
+  "meta": { "sourceApp": "petstore-mini", "importedFrom": "openapi@3" },
+  "roots": ["route-0", "route-1", "route-2"],
+  "nodes": [
+    { "id": "route-0", "layer": "request", "op": "route", "attrs": { "path": "/pets", "method": "GET" } },
+    { "id": "route-1", "layer": "request", "op": "route", "attrs": { "path": "/pets", "method": "POST" } },
+    { "id": "route-2", "layer": "request", "op": "route", "attrs": { "path": "/pets/{id}", "method": "GET" } }
+  ],
+  "losses": []
+}
