@@ -1,4 +1,4 @@
-import type { IrDocumentV0 } from "./ir-v0.js";
+import type { IrDocumentV0 } from "@wptp/ir";
 
 export interface EmittedFile {
   readonly relativePath: string;
