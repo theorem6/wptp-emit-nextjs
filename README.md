@@ -2,7 +2,7 @@
 
 ## Purpose
 
-**D4 emit family (starter):** turn [WPTP IR v0](https://github.com/theorem6/wptp-ir) **request/route** nodes into **Next.js App Router** `route.ts` stubs. **Bronze** — structural handlers only; verify harness is future work.
+**D4 emit family:** turn [WPTP IR v0](https://github.com/theorem6/wptp-ir) **request/route** nodes into **Next.js App Router** `route.ts` stubs. **Bronze** — structural handlers with contract verification via [wptp-matrix](https://github.com/theorem6/wptp-matrix) (`openapi-ir-nextjs`, `har-ir-nextjs`); Chrysalis CI **`wptp-d4-harness`** on [AgenticOp-io/chrysalis](https://github.com/AgenticOp-io/chrysalis).
 
 ## Public API
 
